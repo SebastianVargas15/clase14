@@ -46,26 +46,27 @@
     margin-top: -75px;
 }
 
-.corazon{
+.corazon {
     width: 40px;
     height: 30px;
 }
-.corazon:hover{
-background-color: transparent;
-border: solid 2px transparent;
+
+.corazon:hover {
+    background-color: transparent;
+    border: solid 2px transparent;
 }
 
-.div-corazon{
+.div-corazon {
     position: relative;
     bottom: 365px;
     padding-left: 10px;
 }
 
-.card-text{
+.card-text {
     text-align: justify;
 }
 
-.card-text h2{
+.card-text h2 {
     text-align: center;
     padding-bottom: 10px;
 }
@@ -74,25 +75,101 @@ border: solid 2px transparent;
     width: 500px;
     background: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
+
 }
 
 
-.container-button{
+.container-button {
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
-.container-button button{
+.container-button button {
     height: 60px;
     width: 180px;
-    background-color:#00669F;
+    background-color: #00669F;
     color: white;
     border: none;
 }
 
-.container-padding{
+.container-padding {
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+footer {
+    background-color: #00669F;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+}
+
+.github-icon {
+    width: 80px;
+    height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .header-parraph {
+        width: 100%;
+    }
+
+    .header-title {
+        width: 100%;
+    }
+    .card-content {
+        width: 300px;
+        background: #F3F3F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+
+    .fondo {
+        width: 300px;
+        height: 202.5px;
+    }
+
+    .div-corazon {
+        position: relative;
+        bottom: 270px;
+        padding-left: 10px;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .card-content {
+        width: 300px;
+        background: #F3F3F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+
+    .fondo {
+        width: 300px;
+        height: 202.5px;
+    }
+
+    .div-corazon {
+        position: relative;
+        bottom: 270px;
+        padding-left: 10px;
+    }
+    
 }
