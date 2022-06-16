@@ -66,6 +66,11 @@
     text-align: justify;
 }
 
+.card-text p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .card-text h2 {
     text-align: center;
     padding-bottom: 10px;
@@ -85,17 +90,30 @@
     padding: 10px;
 }
 
-.container-button button {
+.container-button input {
     height: 60px;
     width: 180px;
     background-color: #00669F;
     color: white;
     border: none;
+    border-radius: 10px;
+  
+}
+
+.container-button input:hover {
+    height: 60px;
+    width: 180px;
+    background-color: #00669F;
+    color: white;
+    cursor: pointer;
+
+
 }
 
 .container-padding {
     padding-top: 25px;
     padding-bottom: 25px;
+    padding: 100px;
 }
 
 footer {
@@ -149,6 +167,12 @@ footer p {
         justify-content: center;
     }
 
+    .container-padding {
+        padding: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        
+    }
 
 }
 
@@ -171,5 +195,32 @@ footer p {
         bottom: 270px;
         padding-left: 10px;
     }
+    .container-padding {
+        padding: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        
+    }
     
+    
+}
+
+
+
+.plus{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.plus p{
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00669F;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
